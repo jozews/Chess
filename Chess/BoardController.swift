@@ -836,7 +836,7 @@ class BoardController: UIViewController, BackgroundViewDelegate, PromotePopoverD
             let actionSheet = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
             for (idx, timeControl) in timeControls.enumerated() {
                 let action = UIAlertAction(title: timeControl.title, style: .default, handler: { (action: UIAlertAction) in
-                    self.updateTimeControl(tag: 0, withIndex: idx)
+                    self.updateTimeControl(tag: 1, withIndex: idx)
                 })
                 actionSheet.addAction(action)
             }
@@ -945,14 +945,12 @@ class BoardController: UIViewController, BackgroundViewDelegate, PromotePopoverD
     
     func updateTimeControl(tag: Int, withIndex index: Int) {
         if tag == 0 {
-            self.presentedViewController!.dismiss(animated: true, completion: { () -> Void in
-                self.timeControlIdx0 = index
-            })
+            self.timeControlIdx0 = index
+            self.presentedViewController?.dismiss(animated: true, completion: nil)
         }
         else if tag == 1 {
-            self.presentedViewController!.dismiss(animated: true, completion: { () -> Void in
-                self.timeControlIdx1 = index
-            })
+            self.timeControlIdx1 = index
+            self.presentedViewController?.dismiss(animated: true, completion: nil)
         }
         if !session.connectedPeers.isEmpty {
             let info = ["timeControlIdx\(tag)" : "\(index)"]
