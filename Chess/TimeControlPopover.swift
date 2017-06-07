@@ -14,8 +14,9 @@ struct TimeControl {
     let bonus: Double
     
     var title: String {
-        let mins = initial/6
-        return "\(mins) + min\(mins > 1 ? "s" :  "") + \(bonus)"
+        let mins = Int(initial/60)
+        let intBonus = Int(bonus)
+        return String(mins) + " min" + (mins > 1 ? "s" :  "") + (intBonus != 0 ? " + " + String(intBonus) : "")
     }
     
     init(initial: Double, bonus: Double) {
