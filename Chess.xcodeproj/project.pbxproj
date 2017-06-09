@@ -20,6 +20,7 @@
 		EB68A0D81BECE6E20023B55B /* Down.png in Resources */ = {isa = PBXBuildFile; fileRef = EB68A0D61BECE6E20023B55B /* Down.png */; };
 		EB68A0D91BECE6E20023B55B /* Up.png in Resources */ = {isa = PBXBuildFile; fileRef = EB68A0D71BECE6E20023B55B /* Up.png */; };
 		EB6D92531BE87D8000C9DD03 /* PromotePopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6D92521BE87D8000C9DD03 /* PromotePopover.swift */; };
+		EBA4DDE91EEAEE330076DF95 /* umbrella.png in Resources */ = {isa = PBXBuildFile; fileRef = EBA4DDE81EEAEE330076DF95 /* umbrella.png */; };
 		EBAD15011C0D1C510064EDFD /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAD15001C0D1C510064EDFD /* BackgroundView.swift */; };
 		EBAF406F1BF9242A008BE964 /* MoveAudio.m4a in Resources */ = {isa = PBXBuildFile; fileRef = EBAF406E1BF92191008BE964 /* MoveAudio.m4a */; };
 		EBB5AC491BE850B600D9C757 /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = EBB5AC471BE850B600D9C757 /* Play.png */; };
@@ -70,6 +71,7 @@
 		EB68A0D61BECE6E20023B55B /* Down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Down.png; sourceTree = "<group>"; };
 		EB68A0D71BECE6E20023B55B /* Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Up.png; sourceTree = "<group>"; };
 		EB6D92521BE87D8000C9DD03 /* PromotePopover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromotePopover.swift; sourceTree = "<group>"; };
+		EBA4DDE81EEAEE330076DF95 /* umbrella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = umbrella.png; sourceTree = "<group>"; };
 		EBAD15001C0D1C510064EDFD /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		EBAF406E1BF92191008BE964 /* MoveAudio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = MoveAudio.m4a; sourceTree = "<group>"; };
 		EBB5AC471BE850B600D9C757 /* Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play.png; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 		D62798B21AA1265F0021A650 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EBA4DDE81EEAEE330076DF95 /* umbrella.png */,
 				EBC590171BFF021E00F00CA7 /* Center.png */,
 				EBAF406E1BF92191008BE964 /* MoveAudio.m4a */,
 				D62798B31AA1265F0021A650 /* Info.plist */,
@@ -287,6 +290,7 @@
 				EBE2C8AF1C13FBA1006909BB /* Flip.png in Resources */,
 				D62798BA1AA1265F0021A650 /* Main.storyboard in Resources */,
 				EB68A0D81BECE6E20023B55B /* Down.png in Resources */,
+				EBA4DDE91EEAEE330076DF95 /* umbrella.png in Resources */,
 				EB68A0D91BECE6E20023B55B /* Up.png in Resources */,
 				EBF7D92F1BE020A10079F3BE /* LightQueen.png in Resources */,
 				D62798BF1AA1265F0021A650 /* LaunchScreen.xib in Resources */,
